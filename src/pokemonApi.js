@@ -35,7 +35,16 @@ async function putDataOnPage(dataToDisplay){
         // if no 2nd type exists, reset the content in type2display
         type2Display.textContent = "Type 2: ";
    }
+
+   let imageContainer = document.getElementsByClassName("pokemonImage")[0];
+   let imageElement = imageContainer.getElementsByTagName("IMG")[0];
+
+   imageElement.src = dataToDisplay.sprites.front_default;
+
+   // document.querySelector(".pokemonImage img").src = dataToDisplay.sprites.front_default;
 }
+
+
 
 // Button calls this
 async function getAndDisplayPokemonData(){
