@@ -8,7 +8,7 @@
 
 ## To-do
 
-- [x]Cries
+- [x] Cries
 - [x] Shiny chance
 - [ ] Team Generator
     - [ ] select number of pokemon to generate in the team
