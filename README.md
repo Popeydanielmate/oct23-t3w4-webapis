@@ -10,7 +10,7 @@
 
 - [x] Cries
 - [x] Shiny chance
-- [ ] Team Generator
+- [x] Team Generator
     - [ ] select number of pokemon to generate in the team
 
 - [ ] Fetch with headers
